@@ -1,0 +1,1 @@
+import{j as t}from"./index-BQWqTJEg.js";const e={container:{minHeight:"calc(100vh - 50px)",display:"flex",alignItems:"center",justifyContent:"center"},title:{fontWeight:700,fontSize:48,textAlign:"center",fontFamily:"Arial, sans-serif"}};function i(){return t.jsx("div",{style:e.container,children:t.jsx("h1",{style:e.title,children:"Hello! "})})}export{i as default};
