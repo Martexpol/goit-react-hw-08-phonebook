@@ -6,16 +6,17 @@ const styles = {
     justifyContent: "center",
   },
   title: {
-    fontWeight: 500,
+    fontWeight: 700,
     fontSize: 48,
     textAlign: "center",
+    fontFamily: "Arial, sans-serif",
   },
 };
 
 export default function Home() {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Phonebook welcome page </h1>
+      <h1 style={styles.title}>Hello! </h1>
     </div>
   );
 }

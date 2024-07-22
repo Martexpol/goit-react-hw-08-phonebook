@@ -12,9 +12,6 @@ export default function Filter() {
 
   return (
     <div>
-      <div className={styles.header}>
-        <h2>Contacts</h2>
-      </div>
       <div className={styles.filterContainer}>
         <input
           className={styles.input}

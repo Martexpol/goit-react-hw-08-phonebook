@@ -15,9 +15,6 @@ export default function RegistrationForm() {
       email: email.value,
       password: password.value,
     };
-
-    console.log("Dispatching register with data:", userData);
-
     dispatch(register(userData));
     form.reset();
   };

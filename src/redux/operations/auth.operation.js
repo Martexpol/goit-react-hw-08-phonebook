@@ -7,7 +7,6 @@ import { clearAuthHeader, apiClient, setAuthHeader } from "../../lib/client";
 export const register = createAsyncThunk(
   "auth/register",
   async (credentials, thunkAPI) => {
-    console.log("Register function called with credentials:", credentials);
     try {
       const res = await apiClient.post("/users/signup", credentials);
       setAuthHeader(res.data.token);
