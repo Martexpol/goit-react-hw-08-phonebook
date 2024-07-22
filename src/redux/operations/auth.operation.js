@@ -9,7 +9,7 @@ export const register = createAsyncThunk(
   async (credentials, thunkAPI) => {
     console.log("Register function called with credentials:", credentials);
     try {
-      const res = await apiClient.post("/users/signup/", credentials);
+      const res = await apiClient.post("/users/signup", credentials);
       setAuthHeader(res.data.token);
       return res.data;
     } catch (error) {
